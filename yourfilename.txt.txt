@@ -1,0 +1,214 @@
+┌──(kali㉿kali)-[~]
+└─$ history
+    1  pwd
+    2  mkdir weissman
+    3  ls
+    4  cd weissman
+    5  cd ..
+    6  cd/home/kali/weissman
+    7  cd /home/kali//weissman
+    8  mkdir jonathan scott
+    9  cd jonathan
+   10  cd ../scott
+   11  cd ../..
+   12  cd /weissman/jonathan
+   13  cd ~/weissman/jonathan
+   14  touch csprof
+   15  ls
+   16  cp csprof ../scott
+   17  ls ../scott
+   18  ls ../scott/csprof2
+   19  cp csprof ../scott
+   20  ls ../scott/csprof2
+   21  cp csprof ../scott
+   22  ls ../scott
+   23  cp csprof ../scott/csprof2
+   24  ls
+   25  cp csprof ../scott/csprof2
+   26  ls ../scott
+   27  cp ../scott/csprof ./professor
+   28  ls
+   29  cd
+   30  mv weissman profweissman
+   31  ls
+   32  touch oldname
+   33  mv oldname newmname
+   34  ls
+   35  rm newname
+   36  rm newmname
+   37  ls
+   38  mkdir hellogoodbye
+   39  rm hellogoodbye
+   40  rmdir hellogoodbye
+   41  rmdir profweissman/scott
+   42  rm profweissman/scott
+   43  rm -r profweissman/scott
+   44  echo Jonathan Scott Weissman
+   45  echo Jonathan Scott Weissman > rochester
+   46  cat rochester
+   47  echo RIT > rochester
+   48  cat 
+   49  cat rochester
+   50  echo FLCC >> rochester
+   51  echo SU >> rochester
+   52  cat rochester
+   53  tac rochester
+   54  sort rochester
+   55  sudo adduser jsw
+   56  sudo passwd jsw
+   57  su jsw
+   58  whoami
+   59  vim bob
+   60  bob
+   61  ./bob
+   62  ls -l bob
+   63  chmod 744 bob
+   64  ls -l bob
+   65  ./bob
+   66  mkdir monroe
+   67  ls -1 | grep monroe
+   68  chmod 754 monroe
+   69  ls -1 | grep monroe
+   70  ls -l | grep monroe
+   71  cd monroe
+   72  echo meadowbrook > brighton
+   73  cat brighton
+   74  ls -l brighton
+   75  su jsw
+   76  cd ..
+   77  chmod 755 monroe
+   78  ls -l | grep monroe
+   79  cd monrow
+   80  su jsw
+   81  cd ..
+   82  chmod 777 monroe
+   83  cd ..
+   84  ch
+   85  chmod 777 monroe
+   86  su 
+   87  fdafsa
+   88  su jsw
+   89  cd ..
+   90  exit
+   91  screen
+   92  pwd
+   93  mkdir weissman
+   94  ls
+   95  cd weissman
+   96  cd ..
+   97  cd /home/kali/weissman
+   98  mkdir jonathan scott
+   99  cd jonathan
+  100  cd ../scott
+  101  cd ../..4
+  102  cd ../..
+  103  cd -/weissman/jonathan
+  104  cd
+  105  cd -/weissman/jonathan
+  106  cd jonathan
+  107  cd weissman
+  108  cd jonathan
+  109  history
+  110  cd ..
+  111  ^[[200~1  pwd
+  112  ls -l | grep monroe
+  113  cd monroe
+  114  chmod 777 brighton
+  115  ls -l | grep brighton
+  116  su jsw
+  117  cd ..
+  118  chmod 777 monroe
+  119  ls -l | grep monroe
+  120  cd monroe
+  121  chmod 777 brighton
+  122  ls -l | grep brighton
+  123  su jsw
+  124  cd ..
+  125  ls -l /user/bin/passwd
+  126  ls -l /usr/bin/passwd
+  127  mkdir sgid
+  128  chmod 2767 sgid
+  129  ls -l | grep sgid
+  130  su jsw
+  131  mkdir stickybit
+  132  chmod 1777 stickybit
+  133  ls -l | grep stickybit
+  134  cd sticky bit
+  135  cd stickybit
+  136  echo hi > file1
+  137  su jsw
+  138  cd
+  139  echo date > pizza
+  140  ls -l pizza
+  141  chmod 744 pizza
+  142  ls -l pizza
+  143  sudo chown jsw pizza
+  144  ls -l pizza
+  145  sudo chgrp jsw pizza
+  146  ls -l pizza
+  147  su jsw
+  148  sudo chown jonathan:jonathan pizza
+  149  ls -l
+  150  sudo chown kali:kali pizza
+  151  ls -l
+  152  su jsw
+  153  sudo addgroup pentesters1
+  154  sudo addgroup pentesters2
+  155  sudo usermod -a -G pentesters1,pentesters2 jsw
+  156  grep pentesters /etc/group
+  157  groups jsw
+  158  cat /etc/group
+  159  sudo usermod -G pentesters1 jsw
+  160  groups jsw
+  161  sudo usermod -a -G pentesters1,pentesters2 jsw
+  162  sudo gpasswd -d jsw pentesters2
+  163  groups jsw
+  164  sudo adduser alice
+  165  sudo deluser alice
+  166  sudo addgroup cryptographers
+  167  sudo delgroup cryptographers
+  168  cd/
+  169  cd /
+  170  ls -a
+  171  ls -F
+  172  ls -R
+  173  ls -R | more'\nq\n\n\n\n/\n\\n\nRETURN\nls -R
+  174  ls -R | more
+  175  ls -R | less
+  176  find / -name ping 24 2>&1 | grep -v "Permission Denied"
+  177  find / -name ping 2>&1 | grep -v "Permission Denied"
+  178  q
+  179  head months
+  180  man find
+  181  vim months
+  182  cd
+  183  cat/etc/passwed
+  184  cat/etc/passwd
+  185  history
+  186  cat/etc/passwd
+  187  screen -ls
+  188  screen -r /run/screen/S-kali
+  189  screen -r 15862.pts0.kali
+  190  screen -r 15862.pts-0.kali
+  191  cat/etc/passwd
+  192  cat /etc/passwd
+  193  sudo cat/etc/shadow
+  194  sudo cat /etc/shadow
+  195  sudo john
+  196  man john
+  197  sudo john --test
+  198  sudo adduser weissman
+  199  sudo deluser weissman
+  200  sudo adduser weissman
+  201  sudo adduser upper
+  202  sudo adduser lower
+  203  sudo adduser mixed
+  204  sudo adduser story
+  205  cat /etc/passwd
+  206  sudo cat /etc/shadow
+  207  man unshadow
+  208  sudo unshadow /etc/passwd /etc/shadow > rochester.txt
+  209  cat rochester.txt
+  210  sudo john --wordlist=/usr/share/john/password.lst --format=crypt rochester.txt
+  211  sudo john --show --format=crypt rochester.txt
+  212  sudo rm /root/.john/john.pot
